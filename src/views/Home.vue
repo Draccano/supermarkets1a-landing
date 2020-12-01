@@ -80,7 +80,11 @@
             </div>
           </b-col>
           <b-col cols="0" sm="1"></b-col>
-          <b-col cols="12" sm="3" class="d-flex align-items-center justify-content-center">
+          <b-col
+            cols="12"
+            sm="3"
+            class="d-flex align-items-center justify-content-center"
+          >
             <b-img
               src="../assets/about-us-img.jpeg"
               center
@@ -109,7 +113,14 @@
             </b-col>
           </b-row>
           <b-row align-h="center mt-3">
-            <b-col cols="4" sm="3" md="2" lg="1" v-for="brand in brands" :key="brand.id">
+            <b-col
+              cols="4"
+              sm="3"
+              md="2"
+              lg="1"
+              v-for="brand in brands"
+              :key="brand.id"
+            >
               <b-img
                 width="80"
                 :src="brand.img"
