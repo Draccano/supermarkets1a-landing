@@ -198,7 +198,7 @@
 
 <script>
 import DefaultButton from "@/components/DefaultButton";
-import VueHorizontalList from "vue-horizontal-list";
+import VueHorizontalList from "@/components/VueHorizontalList";
 export default {
   name: "Home",
   components: { DefaultButton, VueHorizontalList },
